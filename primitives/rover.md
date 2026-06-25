@@ -24,6 +24,9 @@ Register it before Alpine starts.
 npm i @sheaf/rover
 ```
 
+> When using the Rover primitive (with either Livewire or Alpine), ensure it is imported **before** any Sheaf UI components that depend on it.
+
+
 **With Livewire:**
 ```js
 import { Livewire, Alpine } from "../../vendor/livewire/livewire/dist/livewire.esm"
