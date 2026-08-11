@@ -20,7 +20,7 @@
     };
 
     $classes = [
-        'font-semibold font-lemonmilk text-neutral-800 dark:text-white',
+        'font-semibold text-neutral-800 dark:text-white',
         $variantClasses
     ];
 
