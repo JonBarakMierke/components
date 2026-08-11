@@ -1,3 +1,4 @@
+{{-- resources/views/components/ui/heading/index.blade.php --}}
 @props([
     'level' => 'h2',
     'size' => 'sm',
@@ -12,11 +13,14 @@
         'md' => 'text-lg',
         'lg' => 'text-xl',
         'xl' => 'text-2xl',
+        '2xl' => 'text-4xl',
+        '3xl' => 'text-6xl',
+        '4xl' => 'text-8xl',
         default => 'text-base'
     };
 
     $classes = [
-        'font-semibold text-neutral-800 dark:text-white text-start',
+        'font-semibold font-lemonmilk text-neutral-800 dark:text-white',
         $variantClasses
     ];
 
