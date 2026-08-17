@@ -1,4 +1,0 @@
-files:
-  index: resources/views/components/ui/mega-menu/index.blade.php
-  tab: resources/views/components/ui/mega-menu/tab.blade.php
-  tab-content: resources/views/components/ui/mega-menu/tab-content.blade.php
