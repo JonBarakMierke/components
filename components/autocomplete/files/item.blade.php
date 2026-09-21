@@ -23,7 +23,7 @@
     value="{{ $value }}"
     data-slot="autocomplete-item"
     x-rover:option
-    {{-- Morph will remove data-value for none changed elements so the init is not re-run --}} 
+    {{-- Morph will remove data-value for elements with no changes so the init is not re-run --}} 
     wire:ignore.self
     
     @if($disabled) disabled aria-disabled="true" @endif
